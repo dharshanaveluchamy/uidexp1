@@ -1,0 +1,46 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Adjust height to account for footer */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://img.freepik.com/premium-photo/photo-conference-hall-seminar-room-with-attendee_921410-3922.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-section h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero-btn {
+  background-color: #1e90ff;
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.hero-btn:hover {
+  background-color: #4682b4;
+}

@@ -1,0 +1,17 @@
+.contact-section {
+    padding: 60px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
